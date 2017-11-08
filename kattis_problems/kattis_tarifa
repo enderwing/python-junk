@@ -1,0 +1,10 @@
+dataAmt = int(input())
+months = int(input())
+dataUsed = [int(input()) for i in range(months)]
+
+totalData = (dataAmt*months)+dataAmt
+
+for month in dataUsed:
+    totalData -= month
+
+print(totalData)
