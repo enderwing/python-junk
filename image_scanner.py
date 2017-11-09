@@ -1,6 +1,14 @@
 #!/usr/bin/python3
 # ^^ just in case I ever run this from command line
 
+'''Eventually this file may do something slghtly more useful (probably not) but for now:
+    Asks user for a file path and the file extension separately (parsing is 'hard' and it's late)
+    Makes a "condensed" version of the image. A version with all white pixels removed and squished
+    to the top left. Then makes an image that is the original image but all of the pixels are 
+    placed in a random order.
+'''
+    
+
 
 #imports
 from PIL import Image
